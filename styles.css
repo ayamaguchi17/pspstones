@@ -280,6 +280,7 @@ textarea {
   font-weight: 300;
   font-size: 1em;
   color: #8e8181;
+  background-color:white;
 }
 
 .sns-contact {
@@ -514,7 +515,9 @@ footer {
     height: 50px;
     font-family: "Jost", sans-serif;
     font-weight: 300;
+    font-size: 1em;
     color: #8e8181;
+    background-color:white;
   } */
 
   .btn {
@@ -524,6 +527,8 @@ footer {
     font-weight: 300;
     font-size: 1em;
     color: #8e8181;
+    background-color:white;
+  
   }
 
   footer {
