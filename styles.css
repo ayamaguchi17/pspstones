@@ -55,6 +55,7 @@ header {
 header ul {
   display: flex;
   justify-content: space-between;
+  margin: 0px 10px;
 }
 
 .hamburger {
@@ -115,6 +116,7 @@ header ul {
 
 .about-text {
   text-align: justify;
+  margin:10px;
 }
 
 #sp-stones {
@@ -148,7 +150,7 @@ header ul {
 .sp-img {
   width: 100%;
   height: auto;
-  min-width: 50%;
+  min-width: 49%;
 }
 
 .sp-content {
@@ -182,6 +184,7 @@ header ul {
 
 .jewellery-text {
   text-align: justify;
+  margin:10px;
 }
 
 .container-cm {
@@ -310,8 +313,17 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* media query mobile normal*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
 
 
 * {
@@ -457,12 +469,7 @@ footer {
     padding-bottom: 30px;
   }
 
-  .container-cm {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }
+  
 
   .wrapper {
     width: 100%;
@@ -542,7 +549,7 @@ footer {
   background-color: white;
   width:100vw;
   height:50vh;
-  display: flex;
+  display: none; /* important */
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -560,7 +567,7 @@ footer {
 }
 
 .topNav.open {
-  display: flex;
+  display: flex; /* important */
   transition-duration: 0.3s;
   opacity: 1;
 }
@@ -617,8 +624,33 @@ footer {
 
 
 }
+@media only screen and (max-width: 600px) {
+
+  .container-cm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 /* media query mobile small*/
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 380px) {
+  .topNav {
+    background-color: white;
+    width:100vw;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    transition: 0.3s;
+    z-index: 120;
+    opacity: 0;
+  }
+
+  
 }
 
 
