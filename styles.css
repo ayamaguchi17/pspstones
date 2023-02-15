@@ -274,6 +274,7 @@ textarea {
 }
 
 .btn {
+  all:unset;
   width: 200px;
   height: 50px;
   font-family: "Jost", sans-serif;
@@ -282,6 +283,7 @@ textarea {
   border: none;
   color: #8e8181;
   background-color:white;
+  
 }
 
 .sns-contact {
