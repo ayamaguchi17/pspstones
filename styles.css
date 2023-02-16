@@ -660,10 +660,9 @@ footer {
 @media only screen and (max-width: 380px) {
   .topNav {
     background-color: white;
-    display: none; /* important */
     width:100vw;
-    height:80vh;
-    display: flex;
+    height:70vh;
+    display: none; /* important */
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -677,7 +676,8 @@ footer {
     transition-duration: 0.3s;
     opacity: 1;
   }
-  
+
+
 }
 
 
