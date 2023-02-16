@@ -9,7 +9,7 @@
 }
 
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family:'Amiri',"Times New Roman", Times, serif;
   font-weight: lighter;
   line-height: 2em;
 }
@@ -26,17 +26,28 @@ img {
 
 h1 {
   font-family: "Jost", sans-serif;
-  letter-spacing: 0.5em;
-  margin-right: -0.5em;
+  letter-spacing: 0.2em;
+  margin-right: -0.2em;
   margin-top: 50px;
   display: inline-block;
   font-size: 1em;
+}
+
+h3 {
+  font-family:'Amiri',"Times New Roman", Times, serif;
+  
 }
 
 li {
   list-style: none;
   font-family: "Jost", sans-serif;
   font-weight: 300;
+  letter-spacing: 0.2em;
+}
+
+li a:hover {
+  color:black;
+  transition: 0.8s;
 }
 
 header {
@@ -110,7 +121,7 @@ header ul {
   border: solid 1px white;
   border-left: none;
   border-bottom: none;
-  width: 120px;
+  width: 80px;
   margin: 5px auto;
 }
 
@@ -143,7 +154,7 @@ header ul {
   border: solid 1px #3a3a3a;
   border-left: none;
   border-bottom: none;
-  width: 400px;
+  width: 270px;
   margin: 5px auto;
 }
 
@@ -172,7 +183,7 @@ header ul {
   border: solid 1px #3a3a3a;
   border-left: none;
   border-bottom: none;
-  width: 180px;
+  width: 130px;
   margin: 5px auto 50px;
 }
 
@@ -214,7 +225,7 @@ div.desc {
   border: solid 1px #3a3a3a;
   border-left: none;
   border-bottom: none;
-  width: 240px;
+  width: 170px;
   margin: 5px auto 30px;
 }
 
@@ -233,7 +244,7 @@ div.desc {
   border: solid 1px white;
   border-left: none;
   border-bottom: none;
-  width: 150px;
+  width: 110px;
   margin: 5px auto 30px;
 }
 
@@ -434,7 +445,7 @@ footer {
   }
 
   .sp-line {
-    width: 350px;
+    width: 280px;
   }
 
   .sp-content {
@@ -464,6 +475,7 @@ footer {
   h3 {
     text-align: center;
     font-size: 1em;
+    
   }
 
   #jewellery {
