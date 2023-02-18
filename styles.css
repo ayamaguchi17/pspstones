@@ -1,5 +1,7 @@
 /* standard css */
 
+
+
 * {
   /* font-size: 100%; */
   scroll-behavior: smooth;
@@ -7,6 +9,7 @@
   margin: 0;
   padding: 0;
 }
+
 
 p {
   font-family:'Amiri',"Times New Roman", Times, serif;
@@ -331,7 +334,7 @@ footer {
 
 .thankyou {
   text-align: center;
-  margin-top:20%;
+  margin-top:15%;
   padding:2%;
 }
 
