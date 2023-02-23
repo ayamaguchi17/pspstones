@@ -356,6 +356,17 @@ footer {
   color:var(--darkgrey);
 }
 
+.email{
+  color:blue;
+  text-decoration: underline;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color:rgb(203, 203, 161);
+}
+
 /* media query mobile normal*/
 @media only screen and (max-width: 800px) {
 
