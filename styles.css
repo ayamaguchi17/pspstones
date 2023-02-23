@@ -303,8 +303,17 @@ textarea {
   border: none;
   color: var(--beige);
   background-color:white;
+  cursor: pointer;
   
 }
+
+.btn:hover{
+  color:#000000;
+  cursor: pointer;
+  background-color: #c7c7c7;
+ }
+ 
+
 
 .sns-contact {
   display: flex;
@@ -546,8 +555,11 @@ footer {
     font-size: 1em;
     color: var(--beige);
     background-color:white;
+   
   
   }
+
+
 
   footer {
     font-size: 0.6em;
